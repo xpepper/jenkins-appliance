@@ -47,9 +47,7 @@ Capistrano is able to take care of everything else and is the only requirement f
   </tr>
   <tr>
     <th>Copyright</th><td>Copyright (c) 2012 by Mick Pollard</td>
-  </tr>
-  <tr>
-    <th>License</th><td>Distributed under the Apache License, see COPYING</td>
+    <th>License</th><td>Distributed under the Apache License, see COPYING</td>    
   </tr>
   <tr>
     <th>twitter </th><td>@aussielunix</td>
