@@ -23,5 +23,6 @@ node default {
     'rvm' : ;
     'htmlpublisher' : ;
     'xfpanel' : ;
+    'mailer' : ;
   }
 }

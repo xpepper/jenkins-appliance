@@ -10,15 +10,15 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.hostname = "ci.example.com"
   config.vm.network :private_network, ip: "192.168.11.03"
   config.vm.network "forwarded_port", guest: 8080, host: 8080
-  
+
   config.vm.provision :puppet, :module_path => "modules" do |puppet|
     puppet.manifests_path = "manifests"
     puppet.manifest_file  = "site.pp"
-    puppet.options = "--verbose"    
+    puppet.options = "--verbose"
   end
-  
+
   config.vm.provider :virtualbox do |vb|
     vb.customize ["modifyvm", :id, "--memory", 512]
   end
-  
+
 end
