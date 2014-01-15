@@ -4,25 +4,25 @@ node default {
   include jenkins
 
   jenkins::plugin {
-    "git" : ;
+    'analysis-core' : ;
     'chucknorris' : ;
-    'github' : ;
-    'greenballs' : ;
-    'ruby' : ;
-    'rake' : ;
-    'ssh' : ;
-    'monitoring' : ;
     'favorite' : ;
+    'git' : ;
+    'github' : ;
     'gravatar' : ;
+    'greenballs' : ;
+    'htmlpublisher' : ;
     'jabber' : ;
-    'sounds' : ;
+    'mailer' : ;
+    'monitoring' : ;
     'radiatorviewplugin' : ;
+    'rake' : ;
+    'ruby' : ;
+    'rvm' : ;
+    'sounds' : ;
+    'ssh' : ;
     'vsphere-cloud' : ;
     'warnings' : ;
-    'analysis-core' : ;
-    'rvm' : ;
-    'htmlpublisher' : ;
     'xfpanel' : ;
-    'mailer' : ;
   }
 }
