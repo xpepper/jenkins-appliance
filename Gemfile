@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'capistrano-puppeteer'
-gem 'librarian-puppet', '0.9.1'
+gem 'librarian-puppet', '~> 0.9.1'
 
 
 group :test do

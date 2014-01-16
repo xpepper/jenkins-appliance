@@ -1,28 +1,29 @@
 node default {
   include apt
   include stdlib
+  include git
   include jenkins
 
   jenkins::plugin {
-    'analysis-core' : ;
+    "git" : ;
     'chucknorris' : ;
-    'favorite' : ;
-    'git' : ;
     'github' : ;
-    'gravatar' : ;
     'greenballs' : ;
-    'htmlpublisher' : ;
-    'jabber' : ;
-    'mailer' : ;
-    'monitoring' : ;
-    'radiatorviewplugin' : ;
-    'rake' : ;
     'ruby' : ;
-    'rvm' : ;
-    'sounds' : ;
+    'rake' : ;
     'ssh' : ;
+    'monitoring' : ;
+    'favorite' : ;
+    'gravatar' : ;
+    'jabber' : ;
+    'sounds' : ;
+    'radiatorviewplugin' : ;
     'vsphere-cloud' : ;
     'warnings' : ;
+    'analysis-core' : ;
+    'rvm' : ;
+    'htmlpublisher' : ;
     'xfpanel' : ;
+    'mailer' : ;
   }
 }
