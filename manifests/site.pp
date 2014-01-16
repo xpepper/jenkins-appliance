@@ -5,25 +5,35 @@ node default {
   include jenkins
 
   jenkins::plugin {
-    "git" : ;
+    'credentials' : ;
+    'ssh-credentials' : ;
+    'scm-api' : ;
+    'parameterized-trigger' : ;
+    'git-client' : ;
+    'git' : ;
     'chucknorris' : ;
+    'github-api' : ;
     'github' : ;
-    'greenballs' : ;
-    'ruby' : ;
-    'rake' : ;
-    'ssh' : ;
-    'monitoring' : ;
-    'favorite' : ;
     'gravatar' : ;
-    'jabber' : ;
-    'sounds' : ;
-    'radiatorviewplugin' : ;
-    'vsphere-cloud' : ;
-    'warnings' : ;
+    'token-macro' : ;
+    'javadoc' : ;
+    'jquery' : ;
+    'greenballs' : ;
+    'delivery-pipeline-plugin' : ;
+    'embeddable-build-status' : ;
     'analysis-core' : ;
-    'rvm' : ;
+    'favorite' : ;
     'htmlpublisher' : ;
-    'xfpanel' : ;
+    'instant-messaging' : ;
+    'jabber' : ;
     'mailer' : ;
+    'monitoring' : ;
+    'radiatorviewplugin' : ;
+    'rake' : ;
+    'ruby' : ;
+    'rvm' : ;
+    'sounds' : ;
+    'ssh' : ;
+    'warnings' : ;
   }
 }
